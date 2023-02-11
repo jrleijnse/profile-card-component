@@ -1,1 +1,5 @@
-/*# sourceMappingURL=queries.css.map */
+@media (max-width: 375px) {
+  .card-container {
+    width: 18rem;
+  }
+}/*# sourceMappingURL=queries.css.map */
