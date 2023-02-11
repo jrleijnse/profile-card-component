@@ -16,7 +16,8 @@ html {
 }
 
 body {
-  background-color: hsl(233deg, 47%, 7%);
+  position: relative;
+  background-color: hsl(185deg, 75%, 39%);
   font-family: "Kumbh Sans", sans-serif;
   min-height: 100vh;
   display: flex;
@@ -24,7 +25,18 @@ body {
   justify-content: center;
   align-items: center;
   line-height: 1.5;
+  overflow: hidden;
   -webkit-font-smoothing: antialiased;
+}
+body .bg-pattern-top {
+  position: absolute;
+  top: -40%;
+  left: -2.5%;
+}
+body .bg-pattern-bottom {
+  position: absolute;
+  top: 50%;
+  right: 0%;
 }
 
 img,
@@ -49,9 +61,63 @@ select {
 }
 
 /* ------------------ CSS RESET ----------------- */
+.card-container {
+  text-align: center;
+  background-color: white;
+  border-radius: 0.8rem;
+  overflow: hidden;
+  position: relative;
+}
+.card-container .profile-picture {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 100px;
+  border: 5px solid white;
+}
+.card-container .profile-container .name-container {
+  margin: 4rem 0rem 0.2rem 0rem;
+}
+.card-container .profile-container .name-container .profile-name {
+  font-weight: 700;
+  color: hsl(229deg, 23%, 23%);
+}
+.card-container .profile-container .name-container .profile-age {
+  padding-left: 0.3rem;
+}
+.card-container .profile-container .profile-city {
+  display: block;
+  color: hsl(0deg, 0%, 59%);
+  margin-bottom: 1.1rem;
+  font-size: 0.8rem;
+}
+.card-container .stats-container {
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-around;
+  border-top: 1px solid hsl(0deg, 0%, 89%);
+}
+.card-container .stats-container .stat {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.card-container .stats-container .stat .stat-number {
+  font-weight: 700;
+  text-transform: uppercase;
+  color: hsl(229deg, 23%, 23%);
+}
+.card-container .stats-container .stat .stat-subheading {
+  text-transform: capitalize;
+  color: hsl(0deg, 0%, 59%);
+  font-size: 0.7rem;
+  letter-spacing: 1px;
+}
+
 /* ------------------ FOOTER ----------------- */
 .attribution {
-  font-size: 11px;
+  margin-top: 1rem;
+  font-size: 0.6rem;
   text-align: center;
 }
 
