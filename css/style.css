@@ -1,0 +1,60 @@
+/* ------------------ COLORS ----------------- */
+/* ------------------ CSS RESET ----------------- */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 112.5%;
+}
+
+body {
+  background-color: hsl(233deg, 47%, 7%);
+  font-family: "Kumbh Sans", sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+#root,
+#__next {
+  isolation: isolate;
+}
+
+/* ------------------ CSS RESET ----------------- */
+/* ------------------ FOOTER ----------------- */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228deg, 45%, 44%);
+}/*# sourceMappingURL=style.css.map */
