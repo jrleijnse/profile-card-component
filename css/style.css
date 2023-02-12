@@ -110,7 +110,7 @@ select {
 .card-container .stats-container .stat .stat-subheading {
   text-transform: capitalize;
   color: hsl(0deg, 0%, 59%);
-  font-size: 0.7rem;
+  font-size: 0.6rem;
   letter-spacing: 1px;
 }
 
