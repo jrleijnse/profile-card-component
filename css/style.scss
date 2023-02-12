@@ -95,6 +95,8 @@ select {
       margin: 4rem 0rem 0.2rem 0rem;
 
       .profile-name {
+        display: inline-block;
+        font-size: 1rem;
         font-weight: 700;
         color: $very-dark-desaturated-blue;
       }

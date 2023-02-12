@@ -79,6 +79,8 @@ select {
   margin: 4rem 0rem 0.2rem 0rem;
 }
 .card-container .profile-container .name-container .profile-name {
+  display: inline-block;
+  font-size: 1rem;
   font-weight: 700;
   color: hsl(229deg, 23%, 23%);
 }
