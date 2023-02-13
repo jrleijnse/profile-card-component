@@ -85,6 +85,7 @@ select {
   color: hsl(229deg, 23%, 23%);
 }
 .card-container .profile-container .name-container .profile-age {
+  color: hsl(0deg, 0%, 59%);
   padding-left: 0.3rem;
 }
 .card-container .profile-container .profile-city {
